@@ -8,7 +8,7 @@ function FrontPage(){
                 <img src={profilePicture} alt={"ProfilePicture"} id="ProfilePicture"/>
                 <div id="FP-AboutMe">
                     <p id={"myName"}>Luca Pallagi</p>
-                    Ein wenig über mich
+                    Ein Wenig über mich
                     <p>
                         Ich bin in der Ausbildung als Applikationsentwickler in der Informatikmittelschule Buelrain.
                         In meiner Freizeit programmiere ich gerne kleine Projekte, gehe ins Fitnessstudio und bouldere gerne in der Halle.
