@@ -3,6 +3,7 @@ import FrontPage from "./FrontPage.jsx"
 import { HashRouter, Route, Routes, Link } from "react-router-dom";
 import AboutMe from "./AboutMe.jsx";
 import Projekte from "./Projekte.jsx";
+import { SocialIcon } from "react-social-icons";
 
 function App() {
 
@@ -28,6 +29,14 @@ function App() {
                 <Route path="/meineProjekte" element={<Projekte />} />
             </Routes>
         </HashRouter>
+        <section className="links" id="links">
+            <div className="socials">
+                <SocialIcon url="https://github.com/joni0913231008" className="socialicon"/>
+                <SocialIcon url="https://www.youtube.com/watch?v=xvFZjo5PgG0" className="socialicon"/>
+                <SocialIcon url="https://discord.gg/23Q5Zy4h" className="socialicon"/>
+                <SocialIcon url="https://www.spotify.com" className="socialicon"/>
+            </div>
+        </section>
     </>
   )
 }

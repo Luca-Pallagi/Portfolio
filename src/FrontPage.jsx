@@ -7,8 +7,8 @@ function FrontPage(){
             <div id="FrontPage">
                 <img src={profilePicture} alt={"ProfilePicture"} id="ProfilePicture"/>
                 <div id="FP-AboutMe">
-                    <p id={"myName"}>Luca Pallagi</p>
-                    Ein Wenig über mich
+                    <h2 id="myName">Luca Pallagi</h2>
+                    <em>Ein Wenig über mich</em>
                     <p>
                         Ich bin in der Ausbildung als Applikationsentwickler in der Informatikmittelschule Buelrain.
                         In meiner Freizeit programmiere ich gerne kleine Projekte, gehe ins Fitnessstudio und bouldere gerne in der Halle.
