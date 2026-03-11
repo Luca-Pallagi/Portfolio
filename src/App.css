@@ -16,12 +16,13 @@ body {
   right: 10%;
   display: grid;
   grid-template-columns: auto auto;
-  gap: 10%;
+  gap: 5%;
 }
 
 #ProfilePicture {
   border-radius: 50%;
-  width: 125%;
+  width: 100%;
+  transform: translateY(-50px);
 }
 
 

@@ -1,4 +1,5 @@
 import boulderPic from './pictures/boulder.png';
+import krafttraining from './pictures/krafttraining.png';
 
 function Hobbys (){
 
@@ -14,7 +15,12 @@ function Hobbys (){
                 </p>
             </div>
             <div id="hobby-krafttraining">
-
+                <img src={krafttraining} alt="Bild vom Bananenmir"/>
+                <p>
+                    Unter der Woche gehe ich drei- bis viermal ins Fitnessstudio. Besonders motiviert mich,
+                    meine Fortschritte zu sehen und mich durch regelmäßiges Training kontinuierlich zu verbessern.
+                    Außerdem trainiere ich häufig mit einem Kollegen, wobei wir uns gegenseitig motivieren und antreiben.
+                </p>
             </div>
         </div>
     )
