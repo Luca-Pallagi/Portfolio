@@ -20,6 +20,9 @@ function Hobbys (){
                     Unter der Woche gehe ich drei- bis viermal ins Fitnessstudio. Besonders motiviert mich,
                     meine Fortschritte zu sehen und mich durch regelmäßiges Training kontinuierlich zu verbessern.
                     Außerdem trainiere ich häufig mit einem Kollegen, wobei wir uns gegenseitig motivieren und antreiben.
+                    Ergänzend zum Krafttraining betreibe ich Calisthenics.
+                    Mir gefällt dabei besonders, dass ich meine Beweglichkeit, Kraft und Koordination verbessern kann,
+                    während ich gleichzeitig etwas für meine Gesundheit tue.
                 </p>
             </div>
         </div>
