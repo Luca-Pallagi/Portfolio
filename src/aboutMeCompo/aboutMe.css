@@ -1,0 +1,27 @@
+
+#aboutMe{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 5%;
+}
+
+#hobby{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: end;
+    margin: 0 5% 10% 0;
+}
+
+#hobby img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#informatik{
+    display: grid;
+    padding: 0 0 10% 5%
+}

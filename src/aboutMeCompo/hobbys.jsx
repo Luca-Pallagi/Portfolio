@@ -1,5 +1,6 @@
 import boulderPic from './pictures/boulder.png';
 import krafttraining from './pictures/krafttraining.png';
+import "./aboutMe.css"
 
 function Hobbys (){
 
