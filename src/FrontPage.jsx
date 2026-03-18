@@ -1,4 +1,3 @@
-//import profilePicture from "./assets/img.png";
 import profilePicture from "./assets/ProfilePicture.jpeg";
 
 function FrontPage(){
@@ -11,9 +10,10 @@ function FrontPage(){
                     <h2 id="myName">Luca Pallagi</h2>
                     <em>Ein Wenig über mich</em>
                     <p>
-                        Ich bin in der Ausbildung als Applikationsentwickler in der Informatikmittelschule Buelrain.
-                        In meiner Freizeit programmiere ich gerne kleine Projekte, gehe ins Fitnessstudio und bouldere gerne in der Halle.
-                        Meine Projekte sind meistens in React geschrieben.
+                        Ich bin in der Ausbildung als Applikationsentwickler an der Informatikmittelschule Buelrain.
+                        In meiner Freizeit programmiere ich gerne kleine Projekte.
+                        Ausserdem gehe ich ins Fitnessstudio und bouldere in der Halle.
+                        Meine Projekte schreibe ich meist in React.
                     </p>
                 </div>
             </div>

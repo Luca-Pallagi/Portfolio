@@ -10,20 +10,20 @@ function Hobbys (){
             <div id="hobby-bouldern">
                 <img src={boulderPic} alt="Bild vom Bouldern"/>
                 <p>
-                    Am Wochenende gehe ich gerne klettern, besonders Bouldern. Dabei fasziniert mich der Adrenalinschub,
-                    wenn man ohne Seil eine Route bewältigt und jeden Griff genau planen muss. Besonders motiviert mich,
-                    meine Technik zu verbessern und immer schwierigere Routen zu schaffen.
+                    Am Wochenende gehe ich gerne klettern, besonders Bouldern.
+                    Mich fasziniert der Adrenalinschub wenn ich ohne Seil eine Route bewaeltige und jeden Griff genau planen muss.
+                    Besonders motiviert mich, meine Technik zu verbessern und immer schwierigere Routen zu schaffen.
                 </p>
             </div>
             <div id="hobby-krafttraining">
                 <img src={krafttraining} alt="Bild vom Bananenmir"/>
                 <p>
-                    Unter der Woche gehe ich drei- bis viermal ins Fitnessstudio. Besonders motiviert mich,
-                    meine Fortschritte zu sehen und mich durch regelmäßiges Training kontinuierlich zu verbessern.
-                    Außerdem trainiere ich häufig mit einem Kollegen, wobei wir uns gegenseitig motivieren und antreiben.
-                    Ergänzend zum Krafttraining betreibe ich Calisthenics.
-                    Mir gefällt dabei besonders, dass ich meine Beweglichkeit, Kraft und Koordination verbessern kann,
-                    während ich gleichzeitig etwas für meine Gesundheit tue.
+                    Unter der Woche gehe ich drei bis viermal ins Fitnessstudio und verbinde mein Training mit Calisthenics.
+                    Mich motiviert besonders, meine Fortschritte zu sehen und mich durch regelmaessiges Training stetig zu verbessern.
+                    Oft trainiere ich mit einem Kollegen und wir treiben uns gegenseitig an.
+                </p>
+                <p>
+                    Die Kombination aus Krafttraining und Calisthenics gefaellt mir sehr, da ich meine Kraft, Beweglichkeit und Koordination gleichzeitig verbessern kann und dabei auch etwas fuer meine Gesundheit tue.
                 </p>
             </div>
         </div>
