@@ -32,7 +32,7 @@ function App() {
         <section className="links" id="links">
             <div className="socials">
                 <SocialIcon url="https://github.com/Luca-Pallagi" className="socialicon"/>
-                <SocialIcon url="https://www.youtube.com/watch?v=xvFZjo5PgG0" className="socialicon"/>
+                <SocialIcon url="https://www.youtube.com/" className="socialicon"/>
                 <SocialIcon url="https://discord.gg/23Q5Zy4h" className="socialicon"/>
             </div>
         </section>
