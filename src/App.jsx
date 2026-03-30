@@ -1,33 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import FrontPage from "./FrontPage.jsx"
+import { HashRouter, Route, Routes, Link } from "react-router-dom";
+import AboutMe from "./AboutMe.jsx";
+import Projekte from "./Projekte.jsx";
+import { SocialIcon } from "react-social-icons";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <HashRouter>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/aboutMe">About Me</Link>
+                    </li>
+                    <li>
+                        <Link to="/meineProjekte">Meine Projekte</Link>
+                    </li>
+                </ul>
+            </nav>
+            <Routes>
+                <Route path="/" element={<FrontPage />} />
+                <Route path="/aboutMe" element={<AboutMe />} />
+                <Route path="/meineProjekte" element={<Projekte />} />
+            </Routes>
+        </HashRouter>
+        <section className="links" id="links">
+            <div className="socials">
+                <SocialIcon url="https://github.com/Luca-Pallagi" className="socialicon"/>
+                <SocialIcon url="https://www.youtube.com/" className="socialicon"/>
+                <SocialIcon url="https://discord.gg/23Q5Zy4h" className="socialicon"/>
+            </div>
+        </section>
     </>
   )
 }

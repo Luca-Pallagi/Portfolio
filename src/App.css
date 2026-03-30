@@ -1,42 +1,100 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}*/
+
+body {
+  /*background-color: #E1C699;*/
+  background-color: #21252B;
+  color: #EAEAEA;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#FrontPage{
+  position: fixed;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ProfilePicture {
+  border-radius: 50%;
+  width: 100%;
+  transform: translateY(-50px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+nav {
+  width: 100%;
+  /*background-color: #3B2F2F;*/
+  background-color: #1A1A1A;
+  padding: 1rem 2rem;
+
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
-.card {
-  padding: 2em;
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
-.read-the-docs {
-  color: #888;
+nav a {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.socials{
+  min-width: 25%;
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+}
+.socialicon{
+  margin-right: 5%;
+}
+
+#meineProjekte{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2%;
+  padding: 2%;
+}
+
+.project-card{
+  overflow: hidden;
+  /*background-color: #C28468;*/
+  background-color: #4D4D4D;
+  border-radius: 5%;
+  border: black solid;
+  display: grid;
+  grid-template-rows: 60% 35%;
+}
+
+.project-card:hover{
+  transform: scale(1.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card-content{
+  padding-left: 2%;
 }
