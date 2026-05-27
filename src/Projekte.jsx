@@ -1,6 +1,7 @@
 import quizShow from "./assets/quizShow.png";
 import gambling from "./assets/gambling.png";
 import tictactoe from "./assets/tictactoe.png";
+import space from "./assets/space.png"
 import { Link } from "react-router-dom";
 import './App.css';
 
@@ -9,7 +10,8 @@ function Projekte(){
     return(
         <>
             <div id="meineProjekte">
-                <div className="project-card" onClick={() => window.open("https://github.com/Luca-Pallagi/QuizShow.git", "_blank")}>
+                <div className="project-card"
+                     onClick={() => window.open("https://github.com/Luca-Pallagi/QuizShow.git", "_blank")}>
                     <img alt="Quiz Show" src={quizShow}/>
                     <div className="project-card-content">
                         <h3>Quiz Show</h3>
@@ -17,7 +19,8 @@ function Projekte(){
                     </div>
                 </div>
 
-                <div className="project-card" onClick={() => window.open("https://github.com/Luca-Pallagi/TicTacToe", "_blank")}>
+                <div className="project-card"
+                     onClick={() => window.open("https://github.com/Luca-Pallagi/TicTacToe", "_blank")}>
                     <img alt="Tic Tac Toe" src={tictactoe}/>
                     <div className="project-card-content">
                         <h3>Tic Tac Toe</h3>
@@ -26,11 +29,20 @@ function Projekte(){
                     </div>
                 </div>
 
-                <div className="project-card" onClick={() => window.open("https://github.com/Luca-Pallagi/Gambling-Game", "_blank")}>
+                <div className="project-card"
+                     onClick={() => window.open("https://github.com/Luca-Pallagi/Gambling-Game", "_blank")}>
                     <img alt="Gambling Game" src={gambling}/>
                     <div className="project-card-content">
                         <h3>Gambling Game</h3>
                         <p>In diesem Spiel kann man mit einer Slot Machine einfach fiktives Geld verdienen.</p>
+                    </div>
+                </div>
+                <div className="project-card"
+                     onClick={() => window.open("https://github.com/Luca-Pallagi/space_invaders", "_blank")}>
+                    <img alt="space" src={space}/>
+                    <div className="project-card-content">
+                        <h3>Space-Invaders</h3>
+                        <p>Ein einfaches Space Invaders Spiel, mit dem Thema Dragonball.</p>
                     </div>
                 </div>
             </div>
