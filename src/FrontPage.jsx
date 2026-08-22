@@ -1,4 +1,4 @@
-import profilePicture from "./assets/ProfilePicture.jpeg";
+import profilePicture from "./assets/ProfilePicture.png";
 
 function FrontPage(){
 
