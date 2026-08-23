@@ -15,7 +15,7 @@ function Projekte(){
                     <img alt="Quiz Show" src={quizShow}/>
                     <div className="project-card-content">
                         <h3>Quiz Show</h3>
-                        <p>In der Quiz Show wird man je nach Ausgewählten Kategorien Fragen beantworten müssen.</p>
+                        <p>In der Quiz Show wird man je nach ausgewählten Kategorien Fragen beantworten müssen.</p>
                     </div>
                 </div>
 
@@ -23,8 +23,7 @@ function Projekte(){
                     <img alt="Tic Tac Toe" src={tictactoe}/>
                     <div className="project-card-content">
                         <h3>Tic Tac Toe</h3>
-                        <p>In diesem TicTacToe gibt es drei Schwierigkeitsgrade und einem Modi mit Spieler gegen
-                            Spieler</p>
+                        <p>In diesem TicTacToe gibt es drei Schwierigkeitsgrade und einen Modi mit Spieler gegen Spieler</p>
                     </div>
                 </div>
 
@@ -46,8 +45,8 @@ function Projekte(){
                         <img alt="Kiwi Game IMG" src={kiwiGame}/>
                         <div className="project-card-content">
                             <h3>Kiwi Game</h3>
-                            <p>Dies war mein Spiel welches ich als Abschlussprojekt für die 3. Sekundarschule programmiert habe.
-                                Es ist ein einfaches Jump and Run Game geschrieben mit P5.js Github Pages: https://luca-pallagi.github.io/KiwiGame/</p>
+                            <p>Dies war mein Spiel, welches ich als Abschlussprojekt für die 3. Sekundarschule programmiert habe.
+                                Es ist ein einfaches Jump and Run Game, geschrieben mit P5.js Github Pages: https://luca-pallagi.github.io/KiwiGame/</p>
                         </div>
                     </div>
             </div>

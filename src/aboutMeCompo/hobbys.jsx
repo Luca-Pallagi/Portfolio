@@ -10,7 +10,7 @@ function Hobbys (){
             <div id="hobby-bouldern">
                 <img src={boulderPic} alt="Bild vom Bouldern"/>
                 <p>
-                    Am Wochenende gehe ich gerne klettern, besonders Bouldern.
+                    Am Wochenende gehe ich gerne klettern, besonders bouldern.
                     Mich fasziniert der Adrenalinschub wenn ich ohne Seil eine Route bewältige und jeden Griff genau planen muss.
                     Besonders motiviert mich, meine Technik zu verbessern und immer schwierigere Routen zu schaffen.
                     Mich mit meinen Kollegen zu verbessern und uns gegenseitig zu unterstützen, macht mir am meisten Freude.

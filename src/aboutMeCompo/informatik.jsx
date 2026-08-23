@@ -15,7 +15,7 @@ function Informatik(){
                 <img src={htmlP}/>
             </div>
             <p>
-                Ich habe Erfahrung in der Webentwicklung mit React sowie mit reinem HTML, JavaScript, CSS, und kann mit Java simple Backends erstellen.
+                Ich habe Erfahrung in der Webentwicklung mit React sowie mit reinem HTML, JavaScript, CSS und kann mit Java simple Backends erstellen.
                 Zudem habe ich Grundkenntnisse in SQL und Python.
             </p>
             <p>
@@ -23,7 +23,7 @@ function Informatik(){
                 In meiner Freizeit setze ich eigene kleine Projekte um, um praktische Erfahrungen zu sammeln und kreativ zu bleiben.
             </p>
             <p>
-                Aktuell bin ich mit meinem Kollege an einem Projekt am arbeiten, bestehend aus einem Backend und Frontend.
+                Aktuell bin ich mit meinem Kollegen an einem Projekt am Arbeiten, bestehend aus einem Backend und Frontend.
                 Das macht mir besonders Spass, da es Programmierung, Logik und kreatives Problemlösen miteinander verbindet.
             </p>
         </div>
