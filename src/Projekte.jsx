@@ -1,6 +1,7 @@
 import quizShow from "./assets/quizShow.png";
 import gambling from "./assets/gambling.png";
 import tictactoe from "./assets/tictactoe.png";
+import spaceInvaders from "./assets/spaceInvaders.png"
 import { Link } from "react-router-dom";
 import './App.css';
 
@@ -31,6 +32,13 @@ function Projekte(){
                     <div className="project-card-content">
                         <h3>Gambling Game</h3>
                         <p>In diesem Spiel kann man mit einer Slot Machine einfach fiktives Geld verdienen.</p>
+                    </div>
+                </div>
+                <div className="project-card" onClick={() => window.open("https://github.com/Luca-Pallagi/space_invaders", "_blank")}>
+                    <img alt="Space Invaders IMG" src={spaceInvaders}/>
+                    <div className="project-card-content">
+                        <h3>Space Invaders</h3>
+                        <p>Bei diesem Projekt habe ich Space Invaders mit Pygame auf Python programmiert. Die Charaktere habe ich aus einem meiner beliebten Serien gewählt</p>
                     </div>
                 </div>
             </div>
