@@ -2,6 +2,7 @@ import quizShow from "./assets/quizShow.png";
 import gambling from "./assets/gambling.png";
 import tictactoe from "./assets/tictactoe.png";
 import spaceInvaders from "./assets/spaceInvaders.png"
+import kiwiGame from "./assets/KiwiGame.png"
 import { Link } from "react-router-dom";
 import './App.css';
 
@@ -41,6 +42,14 @@ function Projekte(){
                         <p>Bei diesem Projekt habe ich Space Invaders mit Pygame auf Python programmiert. Die Charaktere habe ich aus einem meiner beliebten Serien gewählt</p>
                     </div>
                 </div>
+                <div className="project-card" onClick={() => window.open("https://github.com/Luca-Pallagi/KiwiGame", "_blank")}>
+                        <img alt="Kiwi Game IMG" src={kiwiGame}/>
+                        <div className="project-card-content">
+                            <h3>Kiwi Game</h3>
+                            <p>Dies war mein Spiel welches ich als Abschlussprojekt für die 3. Sekundarschule programmiert habe.
+                                Es ist ein einfaches Jump and Run Game geschrieben mit P5.js Github Pages: https://luca-pallagi.github.io/KiwiGame/</p>
+                        </div>
+                    </div>
             </div>
         </>
     )
